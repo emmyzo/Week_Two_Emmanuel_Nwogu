@@ -1,0 +1,43 @@
+body{
+    background-color: green;
+    font-family: "Sofia", sans-serif;
+    font-weight: 300;
+    font-size: large;
+}
+
+form{
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 100px;
+    padding: 30px;
+    background-color: greenyellow;
+}
+
+h2{
+    color: green;
+    margin-left: 60px;
+}
+
+label{
+    color: black;
+}
+
+button{
+    margin-left: 130px;
+    background-color: green;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(5, 61, 5);
+}
+
+fieldset{
+    border-color: green;
+}
+
+
+input{
+    border-radius: 30px;
+}

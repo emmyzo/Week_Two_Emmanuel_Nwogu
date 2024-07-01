@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+</head>
+<body>
+    <form action="#" method="post">
+        <h2>Regristration Form</h2>
+        <label for="fname">First Name:</label>
+        <input type="text" id="fname" name="fname">
+        <br>
+        <label for="lname">Last Name:</label>
+        <input type="text" id="lname" name="lname">
+        <br>
+        <label for="email">E-mail:</label>
+        <input type="email" name="email" id="email">
+        <br>
+        <label for="pnum">Phone Number:</label>
+        <input type="text" name="pnum" id="pnum">
+        <br>
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username">
+        <br>
+        <label for="password">Password:</label>
+        <input type="password" name="password" id="password">
+        <br>
+        <label for="password2">Confirm Password:</label>
+        <input type="password" name="password2" id="password2">
+        <br>
+        <fieldset>
+            <legend>Gender:</legend>
+            <input type="radio" name="gender" id="male">
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="female">
+            <label for="female">Female</label>
+        </fieldset>
+        <br>
+        <label for="country">Choose your Country:</label>
+        <br>
+        <select name="country" id="country">
+            <option value="select">--select country--</option>
+            <option value="algeria">Algerai</option>
+            <option value="canada">Canada</option>
+            <option value="france">France</option>
+            <option value="lebanon">Lebnon</option>
+            <option value="Moroco">Moroco</option>
+            <option value="moscow">Moscow</option>
+            <option value="niger">Niger</option>
+            <option value="nigeria">Nigeria</option>
+            <option value="portugal">Portugal</option>
+            <option value="qatar">Qatar</option>
+            <option value="russia">Russia</option>
+            <option value="sweden">Sweden</option>
+            <option value="turkey">Turkey</option>
+            <option value="uganda">Uganda</option>
+            <option value="zimbabwe">Zimbabwe</option>
+        </select>
+        <br>
+        <input type="checkbox" name="terms and conditions" id="terms and conditions">
+        <label for="terms and conditions">Terms and Conditions</label>
+        <br>
+        <br>
+        <button>Submit</button>
+    </form>
+</body>
+</html>
